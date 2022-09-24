@@ -36,3 +36,8 @@ print(num2)
 num1 = (365/12)*14.7
 print(num1)
 print("{:.02f}".format((num1)))
+
+nota_media = 12
+b = "La nota media es"
+#Para concadenar ambos resultados hace falta introducir el comando str para que el programa acepte la concadenación de números con letras
+print(b + " " + str(nota_media))
