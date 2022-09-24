@@ -17,3 +17,18 @@ password = "Python"
 
 print(len(username)>=3 and len(username)<10)
 print(password == "Python" or password == "Tokio")
+
+num1 = 4
+num2 = 100
+
+a1 = num1 + 1
+a2 = num2 - 2
+
+b1 = a1 * 3
+b2 = a2 / 2
+
+num1 = b1
+num2 = b2
+
+print(num1)
+print(num2)
