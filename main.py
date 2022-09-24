@@ -32,3 +32,7 @@ num2 = b2
 
 print(num1)
 print(num2)
+
+num1 = (365/12)*14.7
+print(num1)
+print("{:.02f}".format((num1)))
