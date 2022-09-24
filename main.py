@@ -11,3 +11,9 @@ nota_media = (a_1+a_2+a_3+a_4+a_5)/5
 b = "La nota media es"
 resultado = str(nota_media) + b
 print(resultado)
+
+username = "Valentinita"
+password = "Python"
+
+print(len(username)>=3 and len(username)<10)
+print(password == "Python" or password == "Tokio")
