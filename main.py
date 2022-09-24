@@ -14,9 +14,10 @@ print(resultado)
 
 username = "Valentinita"
 password = "Python"
-
-print(len(username)>=3 and len(username)<10)
-print(password == "Python" or password == "Tokio")
+n_1 =  len(username)>=3 and len(username)<10
+n_2 = (password == "Python" or password == "Tokio")
+print("username:" + " " + str(n_1))
+print("password:" + " " + str(n_2))
 
 num1 = 4
 num2 = 100
